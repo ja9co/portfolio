@@ -117,8 +117,9 @@ input:checked + .slider:before {
   border: 1px #808080 solid;
   padding: 8px;
   color: #000;
-  background-color: #cfc;
+  background-color: #fff;
   z-index: 1;
+  font-size: 12px;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
