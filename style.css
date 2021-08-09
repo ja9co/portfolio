@@ -105,6 +105,21 @@ input:checked + .slider:before {
     font-size: 16px;
     font-weight: normal;
 }
+a#tooltip {
+  position: relative;
+}
+a#tooltip:hover::after {
+  content: "Sinigang is a Filipino soup :chef_kiss:";
+  position: absolute;
+  top: 1.1em;
+  left: 1em;
+  min-width: 200px;
+  border: 1px #808080 solid;
+  padding: 8px;
+  color: #000;
+  background-color: #cfc;
+  z-index: 1;
+}
 @media screen and (max-width: 600px) {
     .janine {
         float: none;
