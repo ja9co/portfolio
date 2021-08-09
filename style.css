@@ -105,25 +105,6 @@ input:checked + .slider:before {
     font-size: 16px;
     font-weight: normal;
 }
-.tooltip {
-  position: relative;
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  position: absolute;
-  top: 1.1em;
-  left: 1em;
-  min-width: 50px;
-  border: 1px #808080 solid;
-  padding: 8px;
-  color: #000;
-  background-color: #fff;
-  z-index: 1;
-  font-size: 12px;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
 @media screen and (max-width: 600px) {
     .janine {
         float: none;
